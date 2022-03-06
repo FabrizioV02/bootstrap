@@ -1,208 +1,203 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
 }
 
-#banner{
-    margin-top: 0px;
-    position: relative;
+#banner {
+  margin-top: 0px;
+  position: relative;
 }
 
-#banner img{
-    width: 100%;
-    height: 500px;
-    animation: fadeIn;
-    object-fit: cover;
-    animation-duration: 3s;
+#banner img {
+  width: 100%;
+  height: 500px;
+  animation: fadeIn;
+  object-fit: cover;
+  animation-duration: 3s;
 }
 
-#banner .banner-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: #ffffff;
+#banner .banner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
 }
 
-#banner h2{
-    font-size: 28px;
-    text-align: center;
+#banner h2 {
+  font-size: 28px;
+  text-align: center;
 }
 
-#banner p{
-    text-align: center;
+#banner p {
+  text-align: center;
 }
 
-#banner a{
-    display: block;
-    text-align: center;
-    width: 100px;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 7px;
-    margin-left: 40px;
-    margin-top: 10px;
-    border: 3px solid #ffffff;
+#banner a {
+  display: block;
+  text-align: center;
+  width: 100px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border: 3px solid #ffffff;
 }
 
-#banner a:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+#banner a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.container-fluid img{
-    width: 50px;
+.container-fluid img {
+  width: 50px;
 }
-.carousel-item a{
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 7px;
-    margin-top: 10px;
-    border: 3px solid #ffffff;
-}
-
-.carousel-item a:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+.carousel-item a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px;
+  margin-top: 10px;
+  border: 3px solid #ffffff;
 }
 
-nav{
-    color: #fff;
-}
-#destacados{
-    padding: 20px;
+.carousel-item a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-#brands{
-    background-color: #000000;
-    text-align: center;
-    color: #ffffff;
-    padding: 20px;
+nav {
+  color: #fff;
+}
+#destacados {
+  padding: 20px;
 }
 
-#brands .brand-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#brands {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
 }
 
-.brand-logo{
-    margin: 20px;
+#brands .brand-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.brand-logo img{
-    width: 80px;
-    height: 70px;
-    border: 2px solid #ffffff;
+.brand-logo {
+  margin: 20px;
 }
 
-footer{
-    background-color: #000;
-    text-align: center;
+.brand-logo img {
+  width: 80px;
+  height: 70px;
+  border: 2px solid #ffffff;
 }
 
-footer .redes-container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #000000;
-    padding-bottom: 25px;
+footer {
+  background-color: #000;
+  text-align: center;
 }
 
-
-.redes{
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
+footer .redes-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000000;
+  padding-bottom: 25px;
 }
 
-.redes a{
-    padding: 10px;
-    color: #ffffff;
-    text-decoration: none;
+.redes {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
 }
 
+.redes a {
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /*FORMULARIO BOOTSTRAP*/
 
-
-.form-container{
-    text-align: center;
+.form-container {
+  text-align: center;
 }
 
-.formulario{
-    width: 340px;
-    height: 440px;
-    background-color: #000000;
-    color: #ffffff;
-    border-radius: 8px;
-    margin: 25vh auto;
-    padding: 20px 30px;
-    max-width: 55vh;
-    position: relative;
+.formulario {
+  width: 340px;
+  height: 440px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  margin: 25vh auto;
+  padding: 20px 30px;
+  max-width: 55vh;
+  position: relative;
 }
 
-.formulario h2{ 
-    margin-top: 10px;
-    padding-bottom: 10px;
-    color: #ffffff;
-    border-bottom: 3px solid #ffffff;
+.formulario h2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 
-.formulario input{
-    color: #ffffff;
-    width: 100%;
-    padding: 10px;
-    background: none;
-    outline: none;
-    resize: none;
-    border: 0;
-    transition: all .2s;
-    border-bottom: 2px solid #8f8f8f;
+.formulario input {
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all 0.2s;
+  border-bottom: 2px solid #8f8f8f;
 }
 
-.formulario input:focus{
-    border-bottom: 2px solid #009bd8;
+.formulario input:focus {
+  border-bottom: 2px solid #009bd8;
 }
 
-.formulario p:before{
-    content: attr(type);
-    display: block;
-    margin: 28px 0 0;
-    font-size: 14px;
-    color: #ebe8e8;
+.formulario p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #ebe8e8;
 }
 
-.formulario button{
-    float: center;
-    margin-top: 50px;
-    border: #ffffff 2px solid;
-    background: 0;
-    
-    cursor: pointer;
-    transition: all .2s;
-    width: 50px;
+.formulario button {
+  float: center;
+  margin-top: 50px;
+  border: #ffffff 2px solid;
+  background: 0;
 
-    background-color: #ffffff;
-    color: #000000;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 50px;
+
+  background-color: #ffffff;
+  color: #000000;
 }
 
-.formulario button:hover{
-    background-color: #000000;
-    border-color: #000000;
-    color: #ffffff;
-    
+.formulario button:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
 }
 
-.ubicacion h3{
-    text-align: center;
+.ubicacion h3 {
+  text-align: center;
 }
 
-.tarjeta{
-    align-items: center;
-    margin-left: 350px;
-    padding-bottom: 50px;
+.tarjeta {
+  align-items: center;
+  margin-left: 350px;
+  padding-bottom: 50px;
 }
