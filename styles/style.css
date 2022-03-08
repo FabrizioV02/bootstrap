@@ -74,6 +74,10 @@ nav {
   padding: 20px;
 }
 
+#destacados h2 {
+  text-align: center;
+}
+
 #brands {
   background-color: #000000;
   text-align: center;
